@@ -12,7 +12,7 @@ const showTime = () => {
     am_pm = "PM"
   }
   
-  if(hour === 0){
+  if(hour == 0){
     hour = 12;
     am_pm = "AM"
   }
